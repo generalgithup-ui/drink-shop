@@ -1,0 +1,268 @@
+:root {
+
+    --primary: #f4b400;
+    --dark: #171717;
+    --soft: #f7f7f7;
+
+}
+
+
+body {
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    color: #222;
+
+}
+
+
+/* HERO */
+
+.hero {
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,.82),
+            rgba(0,0,0,.3)
+        ),
+        url("https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1600&q=80")
+        center/cover;
+
+    color: white;
+
+}
+
+
+.min-vh-75 {
+
+    min-height: 75vh;
+
+}
+
+
+/* SECTION */
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+
+.section-title span {
+
+    color: #c58a00;
+
+    font-weight: 700;
+
+}
+
+
+.section-title h2 {
+
+    font-weight: 800;
+
+}
+
+
+/* DRINK CARD */
+
+.drink-card {
+
+    border: 0;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.08);
+
+    height: 100%;
+
+    transition: .25s;
+
+}
+
+
+.drink-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.13);
+
+}
+
+
+.drink-img {
+
+    height: 220px;
+
+    object-fit: cover;
+
+}
+
+
+.price {
+
+    color: #b97800;
+
+    font-size: 1.25rem;
+
+    font-weight: 800;
+
+}
+
+
+/* FEATURE */
+
+.feature-box {
+
+    background: white;
+
+    padding: 35px 20px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.06);
+
+}
+
+
+.feature-box i {
+
+    font-size: 42px;
+
+    color: var(--primary);
+
+}
+
+
+/* AUTH */
+
+.auth-bg {
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff4d0,
+            #f5f5f5
+        );
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.auth-card {
+
+    background: white;
+
+    max-width: 450px;
+
+    margin: 40px auto;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 15px 50px rgba(0,0,0,.12);
+
+}
+
+
+.brand-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 50%;
+
+    background: #fff0b5;
+
+    color: #a86f00;
+
+    display: grid;
+
+    place-items: center;
+
+    font-size: 30px;
+
+    margin:
+        auto
+        auto
+        15px;
+
+}
+
+
+.demo-box {
+
+    background: #fff8df;
+
+    border: 1px dashed #e2b42d;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    font-size: .9rem;
+
+}
+
+
+/* FORM */
+
+.form-card {
+
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.08);
+
+}
+
+
+label {
+
+    font-weight: 600;
+
+    margin-bottom: 6px;
+
+}
+
+
+@media(max-width:768px) {
+
+    .hero h1 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .drink-img {
+
+        height: 190px;
+
+    }
+
+}
